@@ -1,0 +1,20 @@
+{
+    "name": "terpomoj/base64-url-helpers",
+    "description": "Provides base64_url_encode/base64_url_decode.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BinotaLIU",
+            "email": "binota@binota.org"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "files": [
+            "./src/helpers.php"
+        ]
+    }
+}
