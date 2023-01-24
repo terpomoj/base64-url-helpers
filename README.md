@@ -51,7 +51,7 @@ $decoded = base64_url_decode('8J-Ps--4j-KAjeKap--4j_Cfj7PvuI_igI3wn4yI!!!!!');
 // $decoded is now '🏳️‍⚧️🏳️‍🌈'
 
 $decoded = base64_url_decode('8J-Ps--4j-KAjeKap--4j_Cfj7PvuI_igI3wn4yI!!!!!', strict: true);
-// $decodes is not false
+// $decodes is now false
 ```
 
 ## Why?
